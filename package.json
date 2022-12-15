@@ -2,11 +2,27 @@
   "name": "bootstrap-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "vite.config copy.js",
   "scripts": {
+    "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinzin10zin/StrapYourBoots.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinzin10zin/StrapYourBoots/issues"
+  },
+  "homepage": "https://github.com/rinzin10zin/StrapYourBoots#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
 }
